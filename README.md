@@ -28,7 +28,7 @@ This project utilizes **Infrastructure as Code (YAML)** to automate compilation.
 Upon every push to the `main` branch, a GitHub Actions Matrix Strategy simultaneously spins up three isolated cloud environments (`windows-latest`, `ubuntu-latest`, `macos-latest`). It installs `PyInstaller` and natively compiles the high-level Python script into standalone executables for all three major operating systems.
 
 ##  How to Use
-1.  Navigate to the **[Actions](../../releases/latest)** section of this repository and download the required artifacts for your operating system.
+1.  Navigate to the **[Actions](../../actions/runs/22497259001)** section of this repository and download the required artifacts for your operating system.
 2.  Download the compiled binary for your specific OS:
     * **Windows:** `TimeSync-windows.exe`
     * **Linux:** `TimeSync-linux` (ELF Binary)
